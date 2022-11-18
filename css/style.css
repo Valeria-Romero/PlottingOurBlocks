@@ -1,8 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .container{
     width: 950px;
     background-color: silver;
-    margin: 0px auto;
-    display: inline-block;
+    /* display: block; */
+    margin: 0 auto;
     padding: 20px;
 }
 .top-nav {
@@ -22,13 +27,12 @@
     width: 700px;
     background-color: red;
     display: inline-block;
-    padding: 0;
     padding-right: 25px;
     margin-top: 20px;
     vertical-align: top;
 
 }
-.sub-content {
+.sub-content{
     height: 200px;
     width: 210px;
     background-color: yellow;
